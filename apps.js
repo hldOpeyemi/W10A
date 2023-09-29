@@ -4,14 +4,17 @@ function multiplybyfive (number1, number2){
 let resultsumtimesfive = multiplybyfive(7,10)
     console.log(resultsumtimesfive);
 
-    
-let username = "missrachel2023";
-let long_string = username.length;
-    console.log(long_string);
-  if (long_string > 10) {
-    console.log("TRUE")
-  }else {
-    console.log("FALSE")
-  }
+function long_string(word) {
+    if (word.length > 10) {
+        return true
+      } else {
+        return false
+      }
+}
+let resultone = long_string("Miss Rachel");
+    console.log(resultone)
+let resulttwo = long_string("College");
+    console.log(resulttwo)
+let resultthree =long_string("Cocomelon")
+    console.log(resultthree)
 
-                                     
